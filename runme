@@ -1,0 +1,2 @@
+#! /bin/bash
+epiphany-browser http://google.com
