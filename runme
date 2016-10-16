@@ -1,4 +1,4 @@
 #! /bin/bash
-sed -i '/autohide=0/c\autohide=1.' /home/pi/.config/lxpanel/LXDE-pi/panels/panel
+sed -i '/autohide=0/c\autohide=1' /home/pi/.config/lxpanel/LXDE-pi/panels/panel
 sed -i '/heightwhenhidden=2/c\heightwhenhidden=0' /home/pi/.config/lxpanel/LXDE-pi/panels/panel
 cp /home/pi/pi/autostart.config /home/pi/.config/lxsession/LXDE-pi/autostart
